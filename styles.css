@@ -1,0 +1,119 @@
+/*Global styles*/
+html
+{
+    overflow-x: hidden;
+}
+body
+{
+    margin: 0;
+
+}
+p
+{
+ font-family: 'Sen';
+ font-size: 1.2rem;
+ color: black
+}
+
+/*Background*/
+#particles-js {
+    width: 100vw;
+    height: 80vh;
+    background-color: #522398;
+    background-image: url("images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden; 
+
+}
+
+/*Controls the upper nav/ header*/
+.header
+{
+    height: 85px;
+    background-color: white;
+    font-family: 'Sen';
+}
+.logo
+{
+    width: 200px;
+}
+.navi
+{
+    font-family: 'Sen';
+    text-decoration: none;
+    color: #522398;
+    font-size: 1.1rem;
+}
+
+/*Main title*/
+.container-head
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    color: white;
+}
+.title-head
+{
+    font-family: 'Sen';
+    font-weight:bolder;
+}
+.social-nav
+{
+    border: 5px solid white;
+    height: 65px;
+    width: 50%;
+    margin: auto;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.icons
+{
+   color: #522398;
+   text-decoration: none;
+}
+.line
+{
+    text-decoration: none;
+}
+
+
+/*Main content*/
+.align
+{
+    
+    background-color: white;
+}
+.main
+{
+    color: black;
+    background-color: white;
+    
+}
+
+.banner{
+    background-color: #ededed;
+}
+
+li
+{
+    font-size: 1.3rem;
+    padding-right: 1.1rem;
+    color: black;
+    list-style: none;
+}
+.profiles
+{
+    border-radius: 50%;
+    height: 200px;
+}
+.leadership-heads
+{
+    color: black;
+}
+
