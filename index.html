@@ -155,6 +155,28 @@
                         </div>
                     </div>
                 </div>
+                <select id="calendarSelect" onchange="changeCalendar()">
+                            <option value="default">Hide Calendar</option>
+                            <option value="calendar">View Calendar</option>
+                            <!-- Add more options if needed -->
+                        </select>
+                        <br/>
+    
+                                    <iframe id="calendarFrame" style="border: 0; display: none" width="800" height="600" frameborder="0" scrolling="no" src="https://calendar.google.com/calendar/embed?src=help.aigcu%40gmail.com&ctz=America%2FPhoenix"></iframe>
+                        
+                        <script>
+                            function changeCalendar() {
+                                var selectBox = document.getElementById("calendarSelect");
+                                var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+                                var iframe = document.getElementById("calendarFrame");
+                        
+                                if (selectedValue === "default") {
+                                    iframe.style.display = "none";
+                                } else if (selectedValue === "calendar") {
+                                    iframe.style.display = "block";
+                                }
+                            }
+                        </script>
 
                 <!--Reading List-->
                 <div class="container">
