@@ -2,17 +2,19 @@
 html
 {
     overflow-x: hidden;
+    background-color: black;
+    font-family: 'Montserrat';
 }
 body
 {
     margin: 0;
-
+    background-color: #150c25;
 }
 p
 {
- font-family: 'Sen';
+ font-family: 'Montserrat';
  font-size: 1.2rem;
- color: black
+ color: #848884;
 }
 
 /*Background*/
@@ -25,25 +27,42 @@ p
     background-size: cover;
     background-position: center;
     overflow: hidden; 
-
+    box-shadow: inset 0 0 20px #150c25;
 }
 
 /*Controls the upper nav/ header*/
 .header
 {
     height: 85px;
-    background-color: white;
-    font-family: 'Sen';
+    background-color: #150c25 !important;
+    font-family: 'Montserrat';
+}
+.headingText 
+{
+    color: white;
+}
+.navbarStyle 
+{
+    background-color: #150c25; 
 }
 .logo
 {
-    width: 200px;
+    width: 250px;
+}
+.navbar 
+{
+    background-color: #150c25;
+}
+.nav-link
+{
+    color: white !important;
 }
 .navi
 {
-    font-family: 'Sen';
+    font-family: 'Montserrat';
     text-decoration: none;
     color: #522398;
+    background-color: #111219;
     font-size: 1.1rem;
 }
 
@@ -54,22 +73,33 @@ p
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
-    color: white;
+    color: #111219;
 }
 .title-head
 {
-    font-family: 'Sen';
-    font-weight:bolder;
+    font-family: 'Montserrat';
 }
-.social-nav
+.joinBtn
 {
     border: 5px solid white;
     height: 65px;
-    width: 50%;
+    width: 40%;
     margin: auto;
     background-color: white;
     border-radius: 10px;
     margin-top: 30px;
+    text-decoration: none;
+    color: #7933e1;
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.joinText 
+{
+    color: #7933e1;
+    font-size: 1.3rem;
+    font-family: 'Montserrat';
+    font-weight: bold;
     text-decoration: none;
 }
 .icons
@@ -87,33 +117,45 @@ p
 .align
 {
     
-    background-color: white;
+    background-color: #150c25;
 }
 .main
 {
-    color: black;
-    background-color: white;
-    
+    color: white;
+    background-color: #150c25;
 }
 
 .banner{
-    background-color: #ededed;
+    background-color: #7933e1;
+    box-shadow: inset 0 0 10px #150c25;
 }
 
 li
 {
     font-size: 1.3rem;
     padding-right: 1.1rem;
-    color: black;
+    color: white;
     list-style: none;
+}
+.gist-data
+{
+    background-color: #7933e1 !important;
+    border: 2px solid white;
+    color: white !important; 
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+.gist-data a
+{
+    color: #150c25;
 }
 .profiles
 {
-    border-radius: 50%;
+    border-radius: 60%;
     height: 200px;
 }
 .leadership-heads
 {
-    color: black;
+    color: white;
 }
 
