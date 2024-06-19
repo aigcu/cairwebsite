@@ -83,7 +83,7 @@ p
 {
     border: 5px solid white;
     height: 65px;
-    width: 50%;
+    width: 40%;
     margin: auto;
     background-color: white;
     border-radius: 10px;
@@ -93,6 +93,17 @@ p
     font-size: 1.3rem;
     font-family: 'Montserrat';
     font-weight: bold;
+}
+@media screen and (max-width: 750px)
+{
+    .joinBtn
+    {
+        width: 80%;
+    }
+    .container-head
+    {
+        top: 55%;
+    }
 }
 .joinText 
 {
