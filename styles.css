@@ -1,9 +1,10 @@
 /*Global styles*/
 html
 {
-    overflow-x: hidden;
-    background-color: black;
+    overflow-x: hidden !important;
+    background-color: #522398;
     font-family: 'Montserrat';
+    max-width: 100%;
 }
 body
 {
@@ -19,7 +20,7 @@ p
 
 /*Background*/
 #particles-js {
-    width: 100vw;
+    width: 100%;
     height: 80vh;
     background-color: #522398;
     background-image: url("images/bg.png");
@@ -70,7 +71,7 @@ p
 .container-head
 {
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -80%);
     color: #111219;
@@ -122,8 +123,11 @@ p
 {
     text-decoration: none;
 }
-
-
+.eventCards 
+{
+    color: white !important;
+    background-color: #7933e1 !important; 
+}
 /*Main content*/
 .align
 {
@@ -133,7 +137,6 @@ p
 .main
 {
     color: white;
-    background-color: #150c25;
 }
 
 .banner{
@@ -168,5 +171,14 @@ li
 .leadership-heads
 {
     color: white;
+}
+.graph
+{
+    width: 80%;
+    height: auto;
+}
+.footImage
+{
+    width: 100%;
 }
 
