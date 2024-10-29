@@ -151,15 +151,22 @@ li
     color: white;
     list-style: none;
 }
+.projs 
+{
+    color:#7933e1;
+    margin-top: 50px !important;
+    font-size: 1.3rem;
+}
 .gist-data
 {
     background-color: #7933e1 !important;
     border: 2px solid white;
+    border-radius: 40px;
     color: white !important; 
     font-family: 'Montserrat';
     font-weight: bold;
 }
-.gist-data a
+.gist-data
 {
     color: #150c25;
 }
