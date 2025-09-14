@@ -189,3 +189,12 @@ li
     width: 100%;
 }
 
+.card-img-top {
+    width: 200px;
+    height: 400px;
+    object-fit: cover;   /* fills box, crops excess */
+    object-position: center; /* crop from center */
+}
+
+
+
