@@ -157,6 +157,67 @@ li
     margin-top: 50px !important;
     font-size: 1.3rem;
 }
+
+/*Project Cards*/
+.project-card-link
+{
+    text-decoration: none;
+    display: block;
+    height: 100%;
+}
+.project-card
+{
+    background-color: #1e1433;
+    border: 1px solid #2e2045;
+    border-radius: 10px;
+    padding: 16px 18px;
+    height: 100%;
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.project-card:hover
+{
+    transform: translateY(-3px);
+    border-color: #7933e1;
+    box-shadow: 0 4px 16px rgba(121, 51, 225, 0.25);
+}
+.project-card:hover .project-card-more
+{
+    color: #a066f0;
+}
+.project-card:hover .project-card-more i
+{
+    transform: translateX(4px);
+}
+.project-card-title
+{
+    color: #7933e1;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-bottom: 6px;
+}
+.project-card-desc
+{
+    color: #a8a8b0;
+    font-family: 'Montserrat';
+    font-size: 0.85rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.project-card-more
+{
+    color: #7933e1;
+    font-family: 'Montserrat';
+    font-size: 0.8rem;
+    font-weight: 600;
+    transition: color 0.2s ease;
+}
+.project-card-more i
+{
+    font-size: 0.7rem;
+    margin-left: 4px;
+    transition: transform 0.2s ease;
+}
 .gist-data
 {
     background-color: #7933e1 !important;
